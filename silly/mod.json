@@ -1,0 +1,30 @@
+{
+	"geode": "{{ geode }}",
+	"gd": {
+		"win": "2.2091",
+		"android": "2.2091",
+		"mac": "2.2091",
+		"ios": "2.2091"
+	},
+	"id": "{{ id }}",
+	"name": "{{ name }}",
+	"version": "{{ version }}",
+	"developer": "{{ developer }}",
+	"description": "{{ description }}",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3",
+		"nwo5.silly-api": ">=3.0.0"
+	},
+	"links": {
+		"source": "https://github.com/Nwo5-trg/{{ name | title | replace(" ", "-") }}",
+		"community": "https://discord.gg/AeFeYWGUxZ"
+	},
+	"tags": ["offline"],
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Enabled",
+			"default": true
+		}
+	}
+}
