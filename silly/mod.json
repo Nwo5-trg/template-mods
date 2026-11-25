@@ -12,8 +12,8 @@
 	"developer": "{{ developer }}",
 	"description": "{{ description }}",
 	"dependencies": {
-		"geode.node-ids": ">=v1.23.3",
-		"nwo5.silly-api": ">=3.0.0"
+		"geode.node-ids": ">=v1.24.0-beta.1",
+		"nwo5.silly-api": ">=3.1.0"
 	},
 	"links": {
 		"source": "https://github.com/Nwo5-trg/{{ name | title | replace(" ", "-") }}",
